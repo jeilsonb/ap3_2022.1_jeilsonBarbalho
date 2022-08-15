@@ -15,4 +15,5 @@ public class Pessoa{
     void setIdade(int novaIdade){
         idade=novaIdade;
     }
+    //faltou o toString
 }
