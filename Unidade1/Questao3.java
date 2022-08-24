@@ -20,6 +20,7 @@ public class Questao3 {
         for (int i = 0; i < valoresLidos.length; i++){
             System.out.println("valoresLidos[" + i + "]" + valoresLidos[i]);
         }
+        
         //Escrever a média
         int soma = 0;
         for (int i = 0; i < valoresLidos.length; i++){
