@@ -22,13 +22,13 @@ public class Questao6 {
         int velocidade2 = velocidade1 - velocidadeMaxima;
 
         if(velocidade2 > 0 && velocidade2 <= 10){
-            System.out.println("A multa custa R$500");
+            System.out.println("A multa custa R$ 50,00");
 
         }else if(velocidade2 >= 11 && velocidade2 <= 30){
-            System.out.println("A multa custa R$1000");
+            System.out.println("A multa custa R$ 100,00");
 
         }else if(velocidade2 > 30){
-            System.out.println("A multa custa R$1500");
+            System.out.println("A multa custa R$ 200,00");
 
         }else{
             System.out.println("Não é preciso pagar multa");
