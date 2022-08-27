@@ -11,7 +11,7 @@ Sua classe deve ter um construtor que inicializa os três atributos.
 Forneça um método set e get para cada atributo. Se o salário mensal não for positivo, configure-o como 0.0.
 Escreva uma classe Principal que demonstra as capacidades da classe.
 Crie duas instâncias da classe e exiba o salário anual de cada instância.
- */
+*/
 
 public class Empregado {
     private String primeiroNome;

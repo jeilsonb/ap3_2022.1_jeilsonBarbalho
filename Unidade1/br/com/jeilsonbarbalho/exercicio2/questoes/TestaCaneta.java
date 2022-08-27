@@ -1,5 +1,11 @@
 package br.com.jeilsonbarbalho.exercicio2.questoes;
 
+/*
+Faça uma classe Caneta, que tem um modelo, uma cor, a numeração da ponta, 
+o nível de tinta atual e se ela encontra-se tampada ou não. 
+Escreva a classe TestaCaneta, que testa todas as funcionalidade da classe criada.
+*/
+
 public class TestaCaneta {
     public static void main(String[] args){
         Caneta canetaAzul = new Caneta();

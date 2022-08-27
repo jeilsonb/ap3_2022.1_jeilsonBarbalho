@@ -3,7 +3,7 @@ package br.com.jeilsonbarbalho.exercicio2.questoes;
 /*
 Faça um programa em Java que leia da entrada padrão a idade de 4096 pessoas 
 e exiba quantas pessoas são maiores de idade.
- */
+*/
 
 import java.util.Scanner;
 
