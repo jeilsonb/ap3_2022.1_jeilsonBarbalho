@@ -1,3 +1,5 @@
+package br.com.jeilsonbarbalho.exercicio2.questoes;
+
 /*
 Sabendo que latão é constituído de 70% de cobre e 30% de zinco, 
 faça um programa em Java que indique a quantidade de cada um desses componentes 

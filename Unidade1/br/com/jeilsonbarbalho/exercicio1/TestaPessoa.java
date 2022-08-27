@@ -1,5 +1,6 @@
-package br.com.ap3.jeilsonbarbalho;
-public class TestePessoa{
+package br.com.jeilsonbarbalho.exercicio1;
+
+public class TestaPessoa{
     public static void main(String[] args){
         Pessoa pessoa1 = new Pessoa();
 

@@ -1,3 +1,5 @@
+package br.com.jeilsonbarbalho.exercicio2.questoes;
+
 /*
 Escreva um programa em Java para ler o nome e a idade de uma pessoa. 
 Exiba quantos dias de vida ela possui. 

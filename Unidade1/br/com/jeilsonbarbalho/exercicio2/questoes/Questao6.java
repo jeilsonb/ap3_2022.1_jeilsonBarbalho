@@ -1,3 +1,5 @@
+package br.com.jeilsonbarbalho.exercicio2.questoes;
+
 /*
 Faça uma classe em Java com um método main() que leia da entrada padrão a velocidade máxima 
 permitida em uma avenida e leia a velocidade com que o motorista estava dirigindo nela. 
