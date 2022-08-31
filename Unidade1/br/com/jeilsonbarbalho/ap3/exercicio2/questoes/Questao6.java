@@ -1,4 +1,4 @@
-package br.com.jeilsonbarbalho.exercicio2.questoes;
+package br.com.jeilsonbarbalho.ap3.exercicio2.questoes;
 
 /*
 Faça uma classe em Java com um método main() que leia da entrada padrão a velocidade máxima 

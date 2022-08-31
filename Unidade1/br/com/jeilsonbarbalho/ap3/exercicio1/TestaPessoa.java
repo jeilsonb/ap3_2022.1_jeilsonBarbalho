@@ -1,4 +1,4 @@
-package br.com.jeilsonbarbalho.exercicio1;
+package br.com.jeilsonbarbalho.ap3.exercicio1;
 
 public class TestaPessoa{
     public static void main(String[] args){

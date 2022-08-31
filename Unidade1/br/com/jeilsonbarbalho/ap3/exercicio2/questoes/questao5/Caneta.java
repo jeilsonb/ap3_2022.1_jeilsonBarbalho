@@ -1,4 +1,4 @@
-package br.com.jeilsonbarbalho.exercicio2.questoes;
+package br.com.jeilsonbarbalho.ap3.exercicio2.questoes.questao5;
 
 /*
 Faça uma classe Caneta, que tem um modelo, uma cor, a numeração da ponta, 

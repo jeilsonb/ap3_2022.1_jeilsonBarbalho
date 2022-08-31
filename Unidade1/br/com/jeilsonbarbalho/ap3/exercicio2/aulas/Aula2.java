@@ -1,8 +1,8 @@
-package br.com.jeilsonbarbalho.exercicio2.aulas;
+package br.com.jeilsonbarbalho.ap3.exercicio2.aulas;
 
-//Ler um valor da entrada padrão e escrever:
+//Ler um valor da entrada padrÃ£o e escrever:
 //É MAIOR QUE 10! se o valor lido for maior que 10
-//Caso contrário escrever NÃO É MAIOR QUE 10.
+//Caso contrÃ¡rio escrever NÃƒO Ã‰ MAIOR QUE 10.
 
 import java.util.Scanner;
 
@@ -22,13 +22,14 @@ public class Aula2 {
         for (int i = 0; i < valoresLidos.length; i++) {
             System.out.println("valoresLidos[" + i + "]" + valoresLidos[i]);
         }
+        
         // Escrever a média
         int media = 0;
         for (int i = 0; i < valoresLidos.length; i++) {
             media += valoresLidos[i];
         }
 
-        System.out.println("Média=" + media / valoresLidos.length);
+        System.out.println("MÃ©dia=" + media / valoresLidos.length);
 
         entradaPadrao.close();
     }

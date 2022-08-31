@@ -1,4 +1,4 @@
-package br.com.jeilsonbarbalho.exercicio2.questoes;
+package br.com.jeilsonbarbalho.ap3.exercicio2.questoes;
 
 /*
 Escreva um programa em Java que lê um vetor os valores(30) de inteiros. 

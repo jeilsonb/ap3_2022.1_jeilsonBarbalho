@@ -1,4 +1,4 @@
-package br.com.jeilsonbarbalho.exercicio1;
+package br.com.jeilsonbarbalho.ap3.exercicio1;
 
 public class Pessoa{
     String nome;

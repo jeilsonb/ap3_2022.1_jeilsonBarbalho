@@ -1,4 +1,4 @@
-package br.com.jeilsonbarbalho.projetoempregado;
+package br.com.jeilsonbarbalho.ap3.projetoempregado;
 
 /*
  * A fim de representar empregados em uma firma,

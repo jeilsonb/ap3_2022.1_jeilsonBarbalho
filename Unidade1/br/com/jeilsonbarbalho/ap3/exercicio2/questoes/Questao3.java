@@ -1,4 +1,4 @@
-package br.com.jeilsonbarbalho.exercicio2.questoes;
+package br.com.jeilsonbarbalho.ap3.exercicio2.questoes;
 
 /*
 Faça um programa em Java que leia da entrada padrão a idade de 4096 pessoas 
