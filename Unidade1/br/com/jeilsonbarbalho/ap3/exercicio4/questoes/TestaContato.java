@@ -17,7 +17,7 @@ public class TestaContato {
 
         List<Contato> osContatos = new ArrayList<>();
 
-        while (osContatos.size() < 1) {
+        while (osContatos.size() < 5) {
             System.out.println("\nDigite o nome do novo contato: ");
             nome = entrada.nextLine();
 

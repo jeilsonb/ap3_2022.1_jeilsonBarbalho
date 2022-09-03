@@ -48,9 +48,9 @@ public class Contato {
     @Override
     public String toString() {
         return  "Contatos"             +
-        "\nNome = "                    + nome                 + ", " +
-        "\nEmail = "                   + email                + ", " +
-        "\nTelefone = "                + telefone             + ", " +
-        "\nData de Nascimento = "      + dataDeNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))     + "\n"; 
+        "\nNome = "                    + nome                 +
+        "\nEmail = "                   + email                +
+        "\nTelefone = "                + telefone             +
+        "\nData de Nascimento = "      + dataDeNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + "\n"; 
     }
 }
