@@ -13,7 +13,7 @@ public class TestaFuncionario {
         String cargo;
         double salarioBruto;
 
-        List<Funcionario>funcionarios = new ArrayList<>();
+        List<Funcionario> funcionarios = new ArrayList<>();
 
         while(funcionarios.size() <3){
         System.out.println("\nDigite o nome do novo funcionário: ");
