@@ -1,6 +1,7 @@
 package br.com.jeilsonbarbalho.ap3.aula5.questoes.projetosupermercado;
 
 public class Pix implements FormaDePagamento {
+    
     private double valor = 0.0;
     private String chave = null;
     private String senha = null;

@@ -1,6 +1,7 @@
 package br.com.jeilsonbarbalho.ap3.aula5.questoes.projetosupermercado;
 
 public class Cliente {
+    
     private Pedido pedido = new Pedido();
     private Cartao cartao;
     private Pix pix;

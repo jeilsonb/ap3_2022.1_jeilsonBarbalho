@@ -1,6 +1,7 @@
 package br.com.jeilsonbarbalho.ap3.aula5.questoes.projetosupermercado;
 
   public class Item {
+    
     private Produto produto;
     private int quantidade;
 

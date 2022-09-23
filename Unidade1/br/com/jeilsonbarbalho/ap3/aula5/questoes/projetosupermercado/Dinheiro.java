@@ -1,6 +1,7 @@
 package br.com.jeilsonbarbalho.ap3.aula5.questoes.projetosupermercado;
 
 public class Dinheiro implements FormaDePagamento {
+    
     private double valor = 0.0;
 
     public Dinheiro(double valor) {
