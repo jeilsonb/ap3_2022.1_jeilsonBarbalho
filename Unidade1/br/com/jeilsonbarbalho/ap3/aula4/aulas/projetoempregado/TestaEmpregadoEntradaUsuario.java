@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class TestaEmpregado2 {
+public class TestaEmpregadoEntradaUsuario {
 
     public static Empregado leEmpregado() {
         Scanner entradaPadrao = new Scanner(System.in);
