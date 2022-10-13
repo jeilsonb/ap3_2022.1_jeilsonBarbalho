@@ -10,6 +10,7 @@ public class Pedido {
     public List<Item> getItens() {
         return itens;
     }
+    
     public void setItens(List<Item> itens) {
         this.itens = itens;
     }
