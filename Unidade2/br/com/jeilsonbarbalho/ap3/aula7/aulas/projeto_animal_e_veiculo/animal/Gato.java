@@ -1,14 +1,13 @@
 package br.com.jeilsonbarbalho.ap3.aula7.aulas.projeto_animal_e_veiculo.animal;
 
-//Piscou, perdeu!
-public class Cachorro extends Animal {
-   
+public class Gato extends Animal {
+    
     private String raca;
     private String porte;
     
-    public Cachorro() {
-        super(5.6, "Mamiferos");
-        System.out.println("\nConstrutor de Cachorro");
+    public Gato() {
+        super(10.5, "Mamiferos");
+        System.out.println("\nConstrutor de Gato");
     }
     
     public String getRaca() {
@@ -26,11 +25,4 @@ public class Cachorro extends Animal {
     public void setPorte(String porte) {
         this.porte = porte;
     }
-/* 
-    @Override
-    public String toString() {
-        return
-        "\nRaça = "     + raca  +
-        "\nPorte = "    + porte + "\n";
-    }*/
 }

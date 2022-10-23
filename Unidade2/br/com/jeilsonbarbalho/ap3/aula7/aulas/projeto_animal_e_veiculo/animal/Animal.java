@@ -4,17 +4,16 @@ package br.com.jeilsonbarbalho.ap3.aula7.aulas.projeto_animal_e_veiculo.animal;
 public class Animal {
     
     private double peso = -1;
-    private String grupo = "GrupoPadrao";
+    private String grupo = "Grupo Padrão";
 
     public Animal(double peso, String grupo) {
         this.peso = peso;
         this.grupo = grupo;
-        System.out.println("Construtor de Animal com parametro");
     }
 
     public Animal() {
         super();
-        System.out.println("Construtor padrao Animal");
+        System.out.println("\nConstrutor padrão do Animal");
     }
 
     public double getPeso() {
@@ -31,5 +30,12 @@ public class Animal {
 
     public void setGrupo(String grupo) {
         this.grupo = grupo;
+    }
+
+    @Override
+    public String toString() {
+        return
+        "Peso = "    + peso  +
+        "\nGrupo = "   + grupo + "\n";
     }
 }
