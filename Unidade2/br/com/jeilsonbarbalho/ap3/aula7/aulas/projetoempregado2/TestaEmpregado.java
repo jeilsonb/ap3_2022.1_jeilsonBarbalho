@@ -1,4 +1,4 @@
-package br.com.jeilsonbarbalho.ap3.aula8.aulas.projetoempregado2;
+package br.com.jeilsonbarbalho.ap3.aula7.aulas.projetoempregado2;
 
 import java.util.Scanner;
 
