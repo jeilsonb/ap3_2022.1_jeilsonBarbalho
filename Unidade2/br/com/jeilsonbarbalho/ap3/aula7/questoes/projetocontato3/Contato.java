@@ -43,7 +43,7 @@ public class Contato {
 
     @Override
     public String toString() {
-        return "Contato"   +
+        return "\nContato"   +
         "\nNome = "          + nome          + 
         "\nTelefone = "      + telefone      + 
         "\nIdentificador = " + identificador +   "\n";

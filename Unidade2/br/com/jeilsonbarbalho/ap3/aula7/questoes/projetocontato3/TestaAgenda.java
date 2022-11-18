@@ -23,8 +23,8 @@ public class TestaAgenda {
         int opcao = 0;
 
         try {
-            System.out.println("\n1 - para consultar um contato da agenda");
-            System.out.println("2 - para adicionar um contato na agenda.");
+            System.out.println("\n1 - Para consultar um contato da agenda");
+            System.out.println("2 - Para adicionar um contato na agenda\n");
             
             opcao = numero.nextInt();
         } catch (Exception e) {
