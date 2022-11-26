@@ -1,9 +1,7 @@
 package br.com.jeilsonbarbalho.ap3.aula3.questoes;
 
-/*
-Escreva um programa em Java que lê um vetor os valores(30) de inteiros. 
-Substitua, a seguir, todos os valores iguais a 7 por -7. Escreva o vetor resultante.
-*/
+//Escreva um programa em Java que lê um vetor os valores(30) de inteiros. 
+//Substitua, a seguir, todos os valores iguais a 7 por -7. Escreva o vetor resultante.
 
 import java.util.Scanner;
 

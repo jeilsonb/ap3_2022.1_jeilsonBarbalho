@@ -1,14 +1,12 @@
 package br.com.jeilsonbarbalho.ap3.aula3.questoes;
 
-/*
-Faça uma classe em Java com um método main() que leia da entrada padrão a velocidade máxima 
-permitida em uma avenida e leia a velocidade com que o motorista estava dirigindo nela. 
-Calcule e mostre a multa que uma pessoa vai receber, sabendo os valores:
+//Faça uma classe em Java com um método main() que leia da entrada padrão a velocidade máxima 
+//permitida em uma avenida e leia a velocidade com que o motorista estava dirigindo nela. 
+//Calcule e mostre a multa que uma pessoa vai receber, sabendo os valores:
  
-1- Multa de R$ 50 reais se o motorista ultrapassar em até 10km/h a velocidade permitida
-2- Multa de R$ 100 reais se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida
-3- Multa de R$ 200 reais se estiver igual e acima de 31km/h da velocidade permitida
-*/
+//1- Multa de R$ 50 reais se o motorista ultrapassar em até 10km/h a velocidade permitida
+//2- Multa de R$ 100 reais se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida
+//3- Multa de R$ 200 reais se estiver igual e acima de 31km/h da velocidade permitida
 
 import java.util.Scanner;
 
