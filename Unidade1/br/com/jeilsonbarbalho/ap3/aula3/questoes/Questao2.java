@@ -3,8 +3,8 @@ package br.com.jeilsonbarbalho.ap3.aula3.questoes;
 //Escreva um programa em Java para ler o nome e a idade de uma pessoa. 
 //Exiba quantos dias de vida ela possui. 
 //Considere sempre anos completos, e que um ano possui 365 dias. 
-//Ex: uma pessoa com 19 anos possui 6935 dias de vida Um exemplo de saída: 
-//"MARIA, VOCÊ JÁ VIVEU 6935 DIAS!"
+//Ex: uma pessoa com 19 anos possui 6935 dias de vida.
+//Um exemplo de saída: "MARIA, VOCÊ JÁ VIVEU 6935 DIAS!"
 
 import java.util.Scanner;
 

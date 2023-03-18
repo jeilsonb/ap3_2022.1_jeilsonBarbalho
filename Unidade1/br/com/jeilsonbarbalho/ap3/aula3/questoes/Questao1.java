@@ -11,10 +11,10 @@ public class Questao1{
         Scanner entrada = new Scanner(System.in);
         Double valorLido;
 
-        System.out.println("Digite a quantidade de Latão desejada em KG:");
+        System.out.println("\nDigite a quantidade de Latão desejada em KG:");
         valorLido = entrada.nextDouble();
 
-        System.out.println("Quantidade de Zinco KG: " + valorLido * 0.3);
+        System.out.println("\nQuantidade de Zinco KG: " + valorLido * 0.3);
         System.out.println("Quantidade de Cobre KG: " + valorLido * 0.7);
         
         entrada.close();

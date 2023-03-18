@@ -1,12 +1,10 @@
 package br.com.jeilsonbarbalho.ap3.aula3.aulas;
 
-//Ler um valor da entrada padrão e escrever:
-//É MAIOR QUE 10! se o valor lido for maior que 10
-//Caso contrário escrever não é MAIOR QUE 10.
+//Informe dois valores e calcule a média deles:
 
 import java.util.Scanner;
 
-public class Aula2 {
+public class CalcularMedia {
 
     public static void main(String[] args) {
         Scanner entradaPadrao = new Scanner(System.in);
@@ -14,13 +12,13 @@ public class Aula2 {
 
         // Ler os números
         for (int i = 0; i < valoresLidos.length; i++) {
-            System.out.println("Digite um valor:");
+            System.out.println("\nDigite um valor: ");
             valoresLidos[i] = entradaPadrao.nextInt();
         }
 
         // Escrever os números
         for (int i = 0; i < valoresLidos.length; i++) {
-            System.out.println("valoresLidos[" + i + "]" + valoresLidos[i]);
+            System.out.println("\nvaloresLidos" + i + " = " + valoresLidos[i]);
         }
         
         // Escrever a média
@@ -29,7 +27,7 @@ public class Aula2 {
             media += valoresLidos[i];
         }
 
-        System.out.println("Média = " + media / valoresLidos.length);
+        System.out.println("\nMédia = " + media / valoresLidos.length);
 
         entradaPadrao.close();
     }

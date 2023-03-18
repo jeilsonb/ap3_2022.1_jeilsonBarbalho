@@ -6,19 +6,19 @@ package br.com.jeilsonbarbalho.ap3.aula3.aulas;
 
 import java.util.Scanner;
 
-public class Aula1 {
+public class CompararValores {
 
     public static void main(String[] args){
         Scanner entradaPadrao = new Scanner(System.in);
         int valorLido;
 
-        System.out.printf("Digite um valor:");
+        System.out.printf("\nDigite um valor: ");
         valorLido = entradaPadrao.nextInt();
 
         if (valorLido >= 10)
-            System.out.printf("É maior ou igual a 10!");
+            System.out.printf("\nÉ maior ou igual a 10!");
         else
-            System.out.printf("Não é maior que 10!");
+            System.out.printf("\nNão é maior que 10!");
 
         entradaPadrao.close();
     }

@@ -1,12 +1,10 @@
 package br.com.jeilsonbarbalho.ap3.aula3.aulas;
 
-//Ler um valor da entrada padrão e escrever:
-//É MAIOR QUE 10! se o valor lido for maior que 10
-//Caso contrário escrever não é MAIOR QUE 10.
+//Some 10 valores
 
 import java.util.Scanner;
 
-public class Aula3 {
+public class SomarValores {
 
     public static void main(String[] args){
         Scanner entradaPadrao = new Scanner(System.in);
@@ -14,13 +12,13 @@ public class Aula3 {
 
         //Ler os números 
         for(int i = 0; i < 10; i++){
-            System.out.println("Digite um valor:");
+            System.out.println("\nDigite um valor: ");
             valoresLidos[i] = entradaPadrao.nextInt();
         }
 
         //Escrever os números
         for (int i = 0; i < valoresLidos.length; i++){
-            System.out.println("valoresLidos[" + i + "]" + valoresLidos[i]);
+            System.out.println("\nvaloresLidos " + i + " = " + valoresLidos[i]);
         }
         
         //Escrever a média
@@ -29,7 +27,7 @@ public class Aula3 {
             soma += valoresLidos[i];
         }
 
-        System.out.println("Soma=" + soma);
+        System.out.println("\nSoma = " + soma);
 
         entradaPadrao.close();
     }
